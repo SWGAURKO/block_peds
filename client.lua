@@ -1,7 +1,12 @@
 -- 🚫 ADD THE PED MODELS YOU WANT TO BLOCK IN THIS LIST
 local BlacklistedPeds = {
     "a_c_boar", -- Example: Skater Ped
-    "a_c_pig"    -- Example: Cop Ped
+    "a_c_pig",    -- Example: Cop Ped
+    "a_c_pig",          -- Blocks Pig Entities (as shown in POC)
+    "a_m_m_skater_01",  -- Blocks Skater Peds
+    "s_m_y_cop_01"     -- Blocks Default Cop Peds
+    -- Append any other standard or addon ped string hashes here
+}
 
     -- Add any other ped model names here, separated by commas
 }
